@@ -1,0 +1,89 @@
+table{
+   border-collapse: collapse;
+   width: 40%;
+}
+th,td{
+   border: 1px solid black;
+   padding: 6px;
+   }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.leave_text_color{
+    color: red;
+}
+
+/* for table center */
+table.a{
+    margin-left:auto;
+    margin-right:auto;
+   width: 45%;
+}
+table.b {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+table.c{
+    margin-left:auto;
+    margin-right:auto;
+   width: 20%;
+}
+/* for table size */
+table.a {
+  table-layout: auto;
+  width: 80%;
+}
+table.b {
+  table-layout: auto;
+  width: 76%;
+}
+table.c {
+  table-layout: auto;
+  width: 54%;
+}
+/* font type */
+body {
+      font-family: Verdana, Geneva, sans-serif;
+}
+/* change font size at specific cell */
+
+.basic_pay{
+    font-size: 12pt;
+}
+.earning_deductions{
+    font-size: 14pt;
+}
+.leave_balance{
+    font-size: 10pt;
+}
+
+.h2{
+    font-size: 18pt;
+}
+.image{
+    width: 800px;
+    height: 105px;
+}
+
+.align-right{
+    text-align: right;
+}
+.leave_balance_text{
+    text-align: center;
+}
+/* for table text size fomat */
+
+table.a{
+    font-size: 12pt;
+}
+table.b{
+    font-size: 13pt;
+}
+table.c{
+    font-size: 13pt;
+}

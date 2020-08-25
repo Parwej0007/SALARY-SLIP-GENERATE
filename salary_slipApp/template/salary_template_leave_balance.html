@@ -1,0 +1,147 @@
+<!-- added one more column in html page when "leave balance" leave without pay -->
+<!DOCTYPE html>
+<html>
+<head>
+   <title>table</title>
+      <link rel="stylesheet" type="text/css" href="css/csss.css">
+
+</head>
+<body>
+     <center><img src="image\tes_img.png" class="image"></center><br>
+    <center><p class="h2"><u>Salary Slip for {date_month_dict}</u></p></center><br>
+
+    <table class="a">
+   <tr>
+      <td>Employee Code</td>
+       <td><b>{Employee Code}</b></td>
+       <td rowspan="1">Total Days</td>
+       <td><b>{Total Days}</b></td>
+   </tr>
+
+   <tr>
+      <td>Employee Name</td>
+       <td><b>{Employee Name}</b></td>
+       <td rowspan="1">Days Worked</td>
+       <td><b>{Days Worked}</b></td>
+   </tr>
+
+   <tr>
+       <td>Designation</td>
+       <td><b>{Designation}</b></td>
+       <td rowspan="1">LOP Days</td>
+       <td><b>{LOP Days}</b></td>
+   </tr>
+
+    <tr>
+        <td colspan="2">Bank Name</td>
+        <td colspan="2"><b>{Bank Name}</b></td>
+    </tr>
+
+    <tr>
+      <td colspan="2">Bank Account Number</td>
+        <td colspan="2"><b>{Bank Account Number}</b></td>
+   </tr>
+
+    <tr>
+      <td colspan="2">PAN</td>
+        <td colspan="2"><b>{PAN}</b></td>
+   </tr>
+
+    <tr>
+      <td colspan="2">PF UAN Number</td>
+        <td colspan="2"><b>{PF UAN Number}</b></td>
+   </tr>
+</table>
+    <br><br><br><br>
+
+   <table class="b">
+        <tr class="earning_deductions">
+            <th colspan="2">Earnings</th>
+            <th colspan="2">Deductions</th>
+        </tr>
+        <tr class="basic_pay">
+            <td>Basic Pay</td>
+            <td class="align-right"><b>{Basic Pay}</b></td>
+            <td rowspan="1">Provident Fund</td>
+            <td class="align-right"><b>{Provident Fund}</b></td>
+        </tr>
+        <tr>
+            <td>House Rent Allowance</td>
+            <td class="align-right"><b>{House Rent Allowance}</b></td>
+            <td rowspan="1">E.S.I Contribution</td>
+            <td class="align-right"><b>{Contribution}</b></td>
+        </tr>
+        <tr>
+            <td>Special Allowance</td>
+            <td class="align-right"><b>{Special Allowance}</b></td>
+            <td rowspan="1">Loan</td>
+            <td class="align-right"><b>{Loan}</b></td>
+        </tr>
+        <tr>
+            <td>Advance Incentive</td>
+            <td class="align-right"><b>{Advance Incentive}</b></td>
+            <td rowspan="1">Professiaonal Tax</td>
+            <td class="align-right"><b>{Professiaonal Tax}</b></td>
+        </tr>
+        <tr>
+            <td>Additional Allowance</td>
+            <td class="align-right"><b>{Additional Allowance}</b></td>
+            <td rowspan="1">TDS/IT</td>
+            <td class="align-right"><b>{TDS/IT}</b></td>
+        </tr>
+        <tr>
+            <td colspan="4">  </td>
+        </tr>
+        <tr bgcolor="#ff7f50" >
+            <td>Gross Emoluments</td>
+            <td class="align-right"><b>INR {Gross Emoluments}</b></td>
+            <td rowspan="1">Total Deduction</td>
+            <td class="align-right"><b>INR {Total Deduction}</b></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td rowspan="1" bgcolor="#8fbc8f">Net Payable</td>
+            <td bgcolor="#8fbc8f" class="align-right"><b>INR {Net Payable}</b></td>
+        </tr>
+        <tr>
+            <td colspan="4">  </td>
+        </tr>
+        <tr class="align-right">
+            <td colspan="4"><b>Rupees {net_pay_words} Only</b></td>
+        </tr>
+    </table>
+    <br><br><br>
+
+
+    <table class="c">
+        <tr class="earning_deductions">
+            <th colspan="5">Leave Balance</th>
+        </tr>
+        <tr>
+            <th>Opening</th>
+            <th>Earned</th>
+            <th>Availed</th>
+            <th class="leave_balance">Leave without pay</th>
+            <th>Closing</th>
+        </tr>
+        <tr class="leave_balance_text">
+            <td>{Opening}</td>
+            <td>{Earned}</td>
+            <td>{Availed}</td>
+            <td class="leave_text_color"><b>{Leave without Pay}</b></td>
+            <td>{Closing}</td>
+        </tr>
+    </table>
+    <br><br><br><br>
+
+
+    <center>
+        <p><b>Note : This is a system generated statement and needs no signature</b></p><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+        <p><b>G – 3, Apex View Apartments, Ittamadu Main Road, Banashankari III Stage, Bangalore - 560085 </b></p>
+        </footer>
+    </center>
+
+
+</body>
+</html>
