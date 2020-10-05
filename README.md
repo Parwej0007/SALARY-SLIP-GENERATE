@@ -1,4 +1,7 @@
 
 ## Upload excel input file which will be details of each employees and get output of each employees salary slip as PDF formatted.
 
+------------------------------------------------------------------------------------------------------------------------------Output-----
+Output Salary slip as pdf
+
 ![](salary_image.png)
