@@ -1,5 +1,5 @@
 
-## Upload excel input file which will be details of each employees and get output of each employees salary slip as PDF formatted.
+## Upload <b>Excel File</b> of employees detail and get each employees salary slip as PDF.
 
 --------------------------------------------------------------------------------------------------------------------------------
 <h4> Output Salary slip as pdf </h4>
