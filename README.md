@@ -4,8 +4,7 @@
 --------------------------------------------------------------------------------------------------------------------------------
 <h4> Output Salary slip as pdf </h4>
 
-  ![](salary_slip_img.png)
 
-<img src="salary_slip_img.png" alt="Snow" style="width:1500px">
+<img style="border:5px groove gold src="salary_slip_img.png" alt="Snow" style="width:1000px">
 --------------------------------------------------------------------------------------------------------------------------------
 
